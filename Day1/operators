@@ -1,0 +1,73 @@
+//types of operators in javascript
+// 1. Arithmetic Operators
+// 2. Assignment Operators
+// 3. Comparison Operators
+// 4. Logical Operators
+// 5. string concat operators
+// 6. conditional operator
+
+
+//1. Arithmetic operator (addition(+), subtraction(-), multiplication(*), division(/), modulus(%), increment(++), decrement(--), exponentiation(**))
+//for example
+console.log(a+b); // addition
+console.log(b-a); // substraction
+console.log(b*a); // multiplication
+console.log(b/a); // division
+console.log(11%a); // modulo
+console.log(10**2); // Exponentiation
+a++; // increment
+var inc =a ;
+b--; // decrement   
+var dec =b;
+console.log(inc);
+console.log(dec);
+
+//2. assignment operator (=,+=,-=,*=,/=,%=,**=)
+//for example
+let m= 30;
+let n =20;
+m+=10; // Addition Assignment Operator
+console.log(m)
+n-=10; // Substraction Assignment Operator
+console.log(n);
+m*=10; // Multiplication Assignment Operator
+console.log(m)
+n/=10; // Division Assignment Operator
+console.log(n);
+m%=10; // Modulo Assignment Operator
+console.log(m);
+
+//3. comparison operator(==,===,!=,!==,>,<,>=,<=)
+//for example
+let text1 = "20";
+let text2 = "5";
+let result = text1 < text2;
+console.log(result);
+
+// let f = 100;
+// f <<= 5; // Left Shift Assignment Operator 
+// console.log(f);
+// f >>= 8; // Right Shift Assignment Operator 
+// console.log(f);
+
+//4. logical operators(&&,||,!)
+//for example
+// (x < 10 && y > 1) is true;
+// let t = 100;
+// t &= 5; //Bitwise AND Assignment Operator
+// console.log(t);
+// t|=5; //Bitwise OR Assignment Operator
+// console.log(t);
+// t^=5; //Bitwise XOR Assignment Operator
+// console.log(t);
+
+
+//5.string concat operator(+)
+let message = "hello!!";
+let name = "Yuvraj";
+let concat = message+name;
+console.log(concat);
+
+//6. conditional operator(?, :)
+//for example
+status = (marks >= 30) ? "Pass" : "Fail"
