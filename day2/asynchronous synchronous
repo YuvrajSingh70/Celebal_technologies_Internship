@@ -93,7 +93,7 @@ fs.rename('file2.txt', 'renamed_file2.txt', (err) => {
 const fs = require('fs');
 
 try {
-  fs.appendFileSync('synchronous1.txt', 'this is file 1 created by hitesh');
+  fs.appendFileSync('synchronous1.txt', 'this is file 1 created by me');
   console.log('File created and appended!');
 } catch (err) {
   throw err;
@@ -139,7 +139,7 @@ try {
   fs.appendFileSync('synchronous1.txt', 'this is file 1');
   console.log('File created and appended!');
 
-  fs.writeFileSync('synchronous2.txt', 'hites ne veere write kr diya h is file me');
+  fs.writeFileSync('synchronous2.txt', 'written');
   console.log('File 2 is created.');
 } catch (err) {
   throw err;
